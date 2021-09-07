@@ -1,0 +1,72 @@
+.profile-photo{
+    height: 100%;
+    width: 350px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+}
+ 
+.container{
+    max-width: 960px;
+}
+
+.about, .img, .education, .services, .skills{
+    margin: 50px 0;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-desc{
+    font-size: 20px;
+}
+.card-title{
+    color: black;
+}
+
+.edu-year{
+    color: crimson;
+    font-weight: 500;
+}
+.card-body{
+    line-height: 15px;
+}
+.card-text{
+    color: black;
+    font-size: 16px;
+}
+.card-text-sub{
+    color: #00000063;
+}
+
+.card{
+    background-color: #eff0f4;
+    border: none;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+}
+
+.card:hover{
+    box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+}
+
+.services .card i{
+    font-size: 50px;
+    color: crimson;
+}
+.services .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.services .card .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+

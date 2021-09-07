@@ -1,0 +1,36 @@
+
+.contact .icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .icon a{
+    display: inline;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #02020270;
+    margin: 0 10px;
+    transition: 0.4s linear;
+}
+
+
+.icon a:hover{
+    transform: scale(0.7);
+    color: crimson;
+}
+
+.icon a:hover::before{
+    border-left: 4px solid;
+    border-right: 4px solid;
+    transform: skewX(25deg);
+}
+.icon a:hover::after{
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    transform: skewY(-25deg);
+} 

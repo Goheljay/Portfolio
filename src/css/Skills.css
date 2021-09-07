@@ -1,0 +1,54 @@
+.bars{
+    margin-bottom: 15px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+ span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.line{
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+    box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    border-radius: 5px;
+}
+ .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    /* width: 80%; */
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+
+
+.java::before{
+    width: 65%;
+}
+.spring::before{
+    width: 45%;
+}
+
+.js::before{
+    width: 60%;
+}
+ .php::before{
+    width: 70%;
+}
+.android::before{
+    width: 60%;
+}
+.mysql::before{
+    width: 80%;
+}

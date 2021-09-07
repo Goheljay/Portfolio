@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.logo, .logo:hover{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.logo span{
+    color: crimson;
+    font-size: 35px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+li, li:hover{
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    transition: all ease-in 0.3s;
+}
+.nav-link:hover{
+    text-shadow: 0 0 8px crimson;
+    color: crimson;
+    text-decoration: none;
+}
+
